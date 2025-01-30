@@ -16,7 +16,7 @@ dependencies:
     version: 16.4.5
   slash-create:
     specifier: ^6.0.1
-    version: 6.1.0
+    version: 6.3.1
   snowflake-codon:
     specifier: ^4.1.1
     version: 4.1.1
@@ -176,6 +176,7 @@ packages:
 
   /lodash.isequal@4.5.0:
     resolution: {integrity: sha512-pDo3lu8Jhfjqls6GkMgpahsF9kCyayhgykjyLMNFTKWrpVdAQtYyB4muAMWozBB4ig/dtWAmsMxLEI8wuz+DYQ==}
+    deprecated: This package is deprecated. Use require('node:util').isDeepStrictEqual instead.
     dev: false
 
   /lodash.snakecase@4.1.1:
@@ -190,8 +191,8 @@ packages:
     resolution: {integrity: sha512-/k20Lg2q8LE5xiaaSkMXk4sfvI+9EGEykFS4b0CHHGWqDYU0bGUFSwchNOMA56D7TCs9GwVTkqe9als1/ns8UQ==}
     dev: false
 
-  /slash-create@6.1.0:
-    resolution: {integrity: sha512-4ruvBOO5nlsOfJIWEl45whkIWrwNYo2qXl7nEChqpGxu/FmfJJA4BJFxcrxzkJPHCK+V+BFWfF8YugHo9pXsvw==}
+  /slash-create@6.3.1:
+    resolution: {integrity: sha512-+luErO9vO6JOGyFLoAm9Mcfv3Qx0S0+wzsNM3xXSPyY3W4prSV/MdY5h9wBEhuLfKYVb6sdZP++7uC+mNgsxDQ==}
     engines: {node: '>=16'}
     peerDependencies:
       express: ^4
@@ -205,7 +206,7 @@ packages:
       eventemitter3: 5.0.1
       lodash.isequal: 4.5.0
       tweetnacl: 1.0.3
-      undici: 5.28.2
+      undici: 5.28.5
     dev: false
 
   /snowflake-codon@4.1.1:
@@ -228,8 +229,8 @@ packages:
     resolution: {integrity: sha512-Ny6QZ2Nju20vw1SRHe3d9jVu6gJ+4e3+MMpqu7pqE5HT6WsTSlce++GQmK5UXS8mzV8DSYHrQH+Xrf2jVcuKNg==}
     dev: false
 
-  /undici@5.28.2:
-    resolution: {integrity: sha512-wh1pHJHnUeQV5Xa8/kyQhO7WFa8M34l026L5P/+2TYiakvGy5Rdc8jWZVyG7ieht/0WgJLEd3kcU5gKx+6GC8w==}
+  /undici@5.28.5:
+    resolution: {integrity: sha512-zICwjrDrcrUE0pyyJc1I2QzBkLM8FINsgOrt6WjA+BgajVq9Nxu2PbFFXUrAggLfDXlZGZBVZYw7WNV5KiBiBA==}
     engines: {node: '>=14.0'}
     dependencies:
       '@fastify/busboy': 2.1.1
